@@ -1,0 +1,29 @@
+        #container {
+            width: 75%;
+            height: 250px;
+            margin: 0 auto;
+            border: solid 15px black;
+            padding: 50px 50px;
+        }
+
+        #PaletaIzquierda {
+            width: 15px;
+            height: 70px;
+            float: left;
+            background-color: orange;
+        }
+
+        #PaletaDerecha {
+            width: 15px;
+            height: 70px;
+            float: right;
+            background-color: orange;
+        }
+
+        #Pelota {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: blue;
+            z-index: 1;
+        }
